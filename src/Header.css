@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  padding: 10px 30px;
+
+  border-bottom: 2px solid lightgray;
+  background-color: white;
+  z-index: 1000;
+}
+
+.header__options {
+  display: flex;
+  align-items: center;
+}
+
+.header__option > .MuiSvgIcon-root {
+  font-size: 30px;
+}
+.header__option {
+  margin: 0 10px;
+}
+.header > img {
+  object-fit: contain;
+}

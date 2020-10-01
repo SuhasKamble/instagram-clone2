@@ -1,0 +1,20 @@
+.storyReel {
+  padding: 20px;
+  border-bottom: 2px solid lightgray;
+}
+.storyReel__options {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.storyReel__option {
+  border: 2px solid black;
+  border-radius: 50%;
+  border-color: #e1306c;
+}
+.storyReel .MuiSvgIcon-root {
+  border: 2px solid black;
+  border-radius: 99px;
+  padding: 10px;
+}

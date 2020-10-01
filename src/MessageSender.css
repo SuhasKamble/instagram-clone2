@@ -1,0 +1,36 @@
+.messageSender {
+  /* background-color: #405de6; */
+  background: url("https://image.shutterstock.com/image-vector/modern-social-media-gradient-ui-260nw-1526929925.jpg")
+    no-repeat center center/cover;
+  /* background: rgba(0, 0, 0, 0.75); */
+  padding: 20px;
+  display: flex;
+  z-index: 1000;
+  width: 93%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.messageSender > form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: auto;
+}
+.messageSender__input {
+  flex: 1;
+}
+.messageSender > form > input {
+  border-radius: 999px;
+  border: none;
+  border: 1px solid #405de6;
+  padding: 10px;
+  outline: none;
+}
+.messageSender > form > button {
+  flex: 0;
+  background-color: #405de6 !important ;
+  color: white !important;
+  border-radius: 999px !important;
+}
